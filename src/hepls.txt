@@ -1,0 +1,4 @@
+Para escuchar los cambios al momento (como --watch)
+    yarn run start:dev
+
+    <>
