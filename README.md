@@ -18,7 +18,7 @@ npm i -g @nestjs/cli
 ```
 docker compose up -d
 o
-docker compose up --build
+docker compose up --build -d
 ```
 
 
