@@ -21,6 +21,10 @@ o
 docker compose up --build -d
 ```
 
+5. Reconstruir BD con la semilla (solo en desarrollo)
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack usado
 * MongoDB
