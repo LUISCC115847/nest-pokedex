@@ -21,7 +21,16 @@ o
 docker compose up --build -d
 ```
 
-5. Reconstruir BD con la semilla (solo en desarrollo)
+5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Llenar las variables de entorno definidas en el __.env__
+
+7. Levantar la aplicación Nest
+```
+yarn start:dev
+```
+
+8. Reconstruir BD con la semilla (solo en desarrollo)
 ```
 http://localhost:3000/api/v2/seed
 ```
